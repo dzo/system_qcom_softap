@@ -90,7 +90,7 @@ enum error_val {
 #define CONFIG_FILE "/data/misc/wifi/hostapd.conf"
 
 /** Default configuration file path */
-#define DEFAULT_CONFIG_FILE_PATH "/persist/qcom/softap/hostapd_default.conf"
+#define DEFAULT_CONFIG_FILE_PATH "/etc/firmware/wlan/hostapd_default.conf"
 
 /** Accept list file name */
 #define ACCEPT_LIST_FILE "/data/hostapd/hostapd.accept"
@@ -99,7 +99,7 @@ enum error_val {
 #define DENY_LIST_FILE "/data/hostapd/hostapd.deny"
 
 /** Default Ini file */
-#define DEFAULT_INI_FILE "/persist/qcom/softap/qcom_cfg_default.ini"
+#define DEFAULT_INI_FILE "/etc/firmware/wlan/qcom_cfg_default.ini"
 
 /** SDK control interface path */
 #define SDK_CTRL_IF "/data/hostapd/softap_sdk_ctrl"
