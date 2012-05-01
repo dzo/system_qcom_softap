@@ -90,7 +90,7 @@ enum error_val {
 #define CONFIG_FILE "/data/misc/wifi/hostapd.conf"
 
 /** Default configuration file path */
-#define DEFAULT_CONFIG_FILE_PATH "/etc/firmware/wlan/hostapd_default.conf"
+#define DEFAULT_CONFIG_FILE_PATH "/etc/wifi/hostapd_default.conf"
 
 /** Accept list file name */
 #define ACCEPT_LIST_FILE "/data/hostapd/hostapd.accept"
